@@ -3,7 +3,11 @@
 An API written with Java and Spring that allows you to search for NOAA weather observations for a given station id. This can also be used with [a simple UI I made for this.](https://github.com/adamb3ard/noaa-ui)
 
 ### Project setup
-Download the NOAA weather readings [here](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2017.csv.gz) and move it into 
+Download the NOAA weather readings here:
+```
+ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2017.csv.gz
+```
+and move it into 
 ```
 src/main/resources
 ```
